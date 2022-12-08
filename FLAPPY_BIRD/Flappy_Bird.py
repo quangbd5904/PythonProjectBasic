@@ -259,7 +259,7 @@ while running:
         floor_x = 0
     pg.display.flip()
 
-with open('high_score.txt','r+') as f:
+with open('assets/high_score.txt','r+') as f:
     f.write(str(high_score))
 pg.quit()
 
